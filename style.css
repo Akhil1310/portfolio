@@ -43,7 +43,7 @@ img {
 }
 
 .btn {
-  padding: 1rem;
+  /* padding: 1rem; */
   font-size: 0.9rem;
   font-weight: 600;
   outline: none;
@@ -168,6 +168,7 @@ header {
   }
 }
 
+
 .about {
   background-color: #3b434a;
   padding: 5rem 0;
@@ -286,6 +287,10 @@ header {
   margin-bottom: 0.5rem;
   color: var(--secondary-color-dark);
 }
+.project__content .btn {
+
+  color: var(--primary-color);
+}
 
 .project__content p {
   font-size: 1rem;
@@ -393,3 +398,4 @@ nav ul li a::before {
 nav ul li:hover a::before {
   transform: scaleX(1);
 }
+
